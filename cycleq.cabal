@@ -50,6 +50,7 @@ library cycleq-benchmarks
                       Mutual,
                       TypeClassesFunction,
                       TypeClassesList,
+                      TypeClassesMaybe,
                       TypeClassesNonEmpty,
                       TypeClassesState,
                       TypeClassesTree,
