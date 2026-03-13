@@ -47,7 +47,13 @@ library
 
 library cycleq-benchmarks
   exposed-modules:    IsaPlanner,
-                      Mutual
+                      Mutual,
+                      TypeClassesFunction,
+                      TypeClassesList,
+                      TypeClassesNonEmpty,
+                      TypeClassesState,
+                      TypeClassesTree,
+                      TypeClassesZipList
 
   hs-source-dirs:     cycleq-benchmarks
 
