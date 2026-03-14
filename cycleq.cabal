@@ -52,8 +52,10 @@ library cycleq-benchmarks
                       TypeClassesList,
                       TypeClassesMaybe,
                       TypeClassesNonEmpty,
+                      TypeClassesReader,
                       TypeClassesState,
                       TypeClassesTree,
+                      TypeClassesTuple,
                       TypeClassesZipList
 
   hs-source-dirs:     cycleq-benchmarks
@@ -65,13 +67,13 @@ library cycleq-benchmarks
 
   default-language:   Haskell2010
 
-library scratch
-  exposed-modules:    Scratch
+-- library scratch
+--   exposed-modules:    Scratch
 
-  hs-source-dirs:     scratch
+--   hs-source-dirs:     scratch
 
-  build-depends:      base, cycleq
+--   build-depends:      base, cycleq
 
-  ghc-options:        -fplugin CycleQ
+--   ghc-options:        -fplugin CycleQ
 
-  default-language:   Haskell2010
+--   default-language:   Haskell2010
